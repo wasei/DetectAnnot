@@ -23,7 +23,7 @@ FRangeBounds UDetectAnnotPluginBPLibrary::GetBoundingBox2D(APlayerController* Pl
     TArray<float> ScreenY;
 
     // ビューポートのスケールを取得する
-    float ViewportScale = UWidgetLayoutLibrary::GetViewportScale(PlayerController);
+    // float ViewportScale = UWidgetLayoutLibrary::GetViewportScale(PlayerController);
 
     // TSetを使用して重複を排除する
     TSet<FVector> UniqueVertices(ActorVertices);
@@ -34,7 +34,7 @@ FRangeBounds UDetectAnnotPluginBPLibrary::GetBoundingBox2D(APlayerController* Pl
         if (UGameplayStatics::ProjectWorldToScreen(PlayerController, UKismetMathLibrary::TransformLocation(ActorTransform, Vertex), ScreenPosition, true))
         {
             // ビューポートのスケールを調整する
-            ScreenPosition /= ViewportScale;
+            // ScreenPosition /= ViewportScale;
             ScreenX.Add(ScreenPosition.X);
             ScreenY.Add(ScreenPosition.Y);
         }
