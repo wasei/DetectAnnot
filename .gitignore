@@ -14,3 +14,7 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+UE_ObjectDetection_Sample
+annotations.json
+Content/Developers
+.vsconfig
