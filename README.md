@@ -14,10 +14,6 @@ DetectAnnot は、Unreal Engine 上で 3D モデルを自由に配置し、物�
 レンダリング中に表示されるバウンディングボックスの表示はデバッグ用で出力される画像には表示されません。
 ![DetectAnnot 実行中の動作デモ](docs/images/detectannot_run_demo.gif)
 
-### 生成したアノテーションを元に推論した結果
-
-![DetectAnnot 推論結果](docs/images/detectannot_inference_result.png)
-
 ## 使い方（サンプルシーンの動作確認）
 
 1. `DetectAnnot.uproject` を Unreal Engine で開きます
