@@ -14,7 +14,10 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
-UE_ObjectDetection_Sample
 annotations.json
 Content/Developers
 .vsconfig
+UE_ObjectDetection_Sample/annotations.json
+UE_ObjectDetection_Sample/dataset/images/
+UE_ObjectDetection_Sample/model.pth
+UE_ObjectDetection_Sample/__pycache__
