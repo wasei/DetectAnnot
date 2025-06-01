@@ -20,6 +20,14 @@ DetectAnnot は、Unreal Engine 上で 3D モデルを自由に配置し、物�
 
 GitHub の「Download ZIP」ではこれらのファイルは正しく取得されません。クローン後は以下のコマンドを実行してください。
 
+## モデル学習後の検出例
+
+生成した画像を使って物体検出モデル（例：Faster R-CNN）を簡易的に学習させたところ、  
+以下のように対象物を検出できることを確認しました。  
+![Detection Result](UE_ObjectDetection_Sample/docs/images/result_filtered_synthetic.jpg)
+
+詳細な手順や他の結果については、[こちらのサブプロジェクト](UE_ObjectDetection_Sample/README.md)をご参照ください。
+
 ## 使い方（サンプルシーンの動作確認）
 
 1. `DetectAnnot.uproject` を Unreal Engine で開きます
